@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor.Build.Content;
 using UnityEditor.SearchService;
 using UnityEngine;
@@ -9,8 +10,8 @@ using UnityEngine.UI;
 public class NewBehaviourScript : MonoBehaviour
 {
 
-    [SerializeField] private Text scoreTxt;
-    [SerializeField] private Text gameOverTxt;
+    [SerializeField] private TMP_Text scoreTxt;
+    [SerializeField] private TMP_Text gameOverTxt;
     [SerializeField] private Transform camera;
     [SerializeField] private Transform doodler;
 
